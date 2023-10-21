@@ -1,0 +1,314 @@
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1280px;
+    height: 130px;
+    background-color: #6C32FF;
+    border-radius: 15px;
+    padding: 10px;
+
+}
+
+.title{
+    
+    text-align: end;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    position: absolute; 
+    top: 80px; 
+    left: 1000px; 
+    transform: translate(-50%, -50%); 
+    
+
+}
+
+.container{
+    background-color: #FFFF;
+    position: relative;
+    top: -8%;
+    left: -10px;
+    transform: translate(-50%, +20%);
+    border-radius: 20px;
+    color: white;
+    width: 297px;
+    height: 54px;
+}
+
+.logo{
+    
+    width: 80px;
+    height: 80px;
+    left: 80px;
+    top: 25px;
+}
+
+.h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+}
+
+.photo{
+    width: 200px;
+    height: 194px;
+    background-color: black;
+    border-radius: 50%;
+    
+    
+}
+
+.aboutMe{
+    position: absolute;
+    top: 50%; 
+    left: 20%; 
+    transform: translate(0%, 0%); 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+
+}
+
+.study{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+}
+
+.contB{
+    display: block;
+    background-color: #7954D8;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, +20%);
+    border-radius: 20px;
+    color: white;
+    width: 1200px;
+    height: 372px;
+    
+}
+
+.textB{
+    
+    position: absolute;
+    top: 35%; 
+    left: 5%; 
+    transform: translate(0%, 0%); 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    text-align: left;
+    
+}
+
+.contC{
+    display: none;
+    background-color: #7954D8;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, +20%);
+    border-radius: 20px;
+    color: white;
+    width: 1200px;
+    height: 372px;
+    
+}
+
+.textC{
+    
+    position: absolute;
+    top: 35%; 
+    left: 5%; 
+    transform: translate(0%, 0%); 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    text-align: left;
+    
+}
+
+.contD{
+    display: none;
+    background-color: #7954D8;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, +20%);
+    border-radius: 20px;
+    color: white;
+    width: 1200px;
+    height: 372px;
+    
+}
+
+.textD{
+    
+    position: absolute;
+    top: 35%; 
+    left: 5%; 
+    transform: translate(0%, 0%); 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    text-align: left;
+    
+}
+
+.buttonA{
+    position: absolute;
+    left: 20%;
+    top: 90%;
+    transform: translate(-50%, +50%);
+
+    border: none;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    border-radius: 50px;
+    
+
+}
+
+
+
+#button1{
+    width: 162px;
+    height: 44px;
+    background-color: #FFF;
+    border-radius: 50px;
+    font-size: 16px;
+    color: black;
+    cursor: pointer;
+    
+}
+
+#button1:hover{
+    background-color: #F5F5F5;
+}
+
+.buttonB{
+    position: absolute;
+    left: 50%;
+    top: 90%;
+    transform: translate(-50%, +50%);
+    
+    border: none;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    border-radius: 50px;
+
+}
+
+
+#button2{
+    width: 162px;
+    height: 44px;
+    background-color: #FFF;
+    border-radius: 50px;
+    font-size: 16px;
+    color: black;
+    cursor: pointer;
+
+}
+
+#button2:hover{
+    background-color: #F5F5F5;
+}
+
+.buttonC{
+    position: absolute;
+    left: 80%;
+    top: 90%;
+    transform: translate(-50%, +50%);
+
+    border: none;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    border-radius: 50px;
+    
+
+}
+
+#button3{
+    width: 162px;
+    height: 44px;
+    background-color: #FFF;
+    border-radius: 50px;
+    font-size: 16px;
+    color: black;
+    cursor: pointer;
+    
+}
+
+#button3:hover{
+    background-color: #F5F5F5;
+}
+
+.contacts{
+    position: absolute;
+    top: 150%; 
+    left: 48%; 
+    transform: translate(0%, 50%); 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px; /* Espaçamento interno */
+    
+}
+
+.linkedin{
+    width: 60px;
+    height: 60px;
+    top: 150%; 
+    left: 5%; 
+    transform: translate(600%, 250%); 
+    cursor: pointer;
+}
+
+.whatsapp{
+    width: 60px;
+    height: 60px;
+    top: 150%; 
+    left: 5%; 
+    transform: translate(800%, 250%); 
+    cursor: pointer;
+    
+}
+
+.email{
+    width: 60px;
+    height: 60px;
+    top: 150%; 
+    left: 5%; 
+    transform: translate(1000%, 250%); 
+    cursor: pointer;
+    
+}
+
+.github{
+    width: 60px;
+    height: 60px;
+    top: 150%; 
+    left: 5%; 
+    transform: translate(1200%, 250%); 
+    cursor: pointer;
+    
+    
+}
+
+.footer{
+    background: black;
+    color: white;
+    padding: 3px;
+    text-align: center;
+    width: 100%;
+    top: 100%; 
+    left: 5%; 
+    transform: translate( 0%, 300%); 
+}
